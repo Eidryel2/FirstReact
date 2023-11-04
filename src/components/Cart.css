@@ -1,0 +1,28 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cart {
+  width: 400px; /* You can adjust the width to your desired size */
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item-image {
+  width: 50px; /* Adjust the width of the cart item image as needed */
+  height: 50px; /* Adjust the height of the cart item image as needed */
+  margin-right: 10px;
+}
